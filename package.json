@@ -1,0 +1,54 @@
+{
+  "name": "hackerlink",
+  "version": "1.0.0",
+  "private": true,
+  "typings": "types/*.d.ts",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@types/node": "^17.0.17",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-plugin-security": "*",
+    "eslint-plugin-vue": "*",
+    "nodemon": "*",
+    "ts-node": "^10.5.0"
+  },
+  "babel": {
+    "sourceType": "unambiguous",
+    "presets": [
+      [
+        "@nuxt/babel-preset-app",
+        {
+          "targets": {
+            "safari": 8
+          },
+          "useBuiltIns": "usage",
+          "modules": false
+        }
+      ],
+      "@babel/preset-typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "static/**"
+  ]
+}

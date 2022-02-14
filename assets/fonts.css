@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'Miriam Libre';
+    src: url('./fonts/MiriamLibre-Regular.ttf')  format('truetype')
+}
+@font-face{
+    font-family: 'Miriam Libre Bold';
+    src: url('https://hackerlink-static-contents.oss-cn-hongkong.aliyuncs.com/MiriamLibre-Bold.ttf')  format('truetype')
+}
